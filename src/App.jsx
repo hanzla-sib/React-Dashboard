@@ -7,12 +7,12 @@ export default function App() {
       <div className="basis-[12%] h-[100vh] ">
         <Sidebar />
       </div>
-      <div className="basis-[88%] h-[100vh] overflow-y-auto">
+      {/* <div className="basis-[88%] h-[100vh] overflow-y-auto">
         <DashBoardView />
         <div>
           <Outlet />
         </div>
-      </div>
+      </div> */}
     </div>
   );
 }
