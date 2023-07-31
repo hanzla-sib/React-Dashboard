@@ -1,4 +1,4 @@
-import React from "react";
+
 import { BiSearchAlt2 } from "react-icons/bi";
 import { AiOutlineBell ,AiFillMessage} from "react-icons/ai";
 const DashBoardView = () => {
@@ -22,7 +22,7 @@ const DashBoardView = () => {
             <div className="border border-gray-600/[0.2] h-full"></div>
             <div >Hanzla Sibghat</div>
             <div className="rounded-full w-[40px] hover:scale-105">
-                <img className="object-contain rounded-full" src="../../public/pic.jpg"/>
+                {/* <img className="object-contain rounded-full" src="../../public/pic.jpg"/> */}
             </div>
         </div>
       </div>
